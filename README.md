@@ -1,48 +1,74 @@
-# Astro Starter Kit: Basics
+# ProCodeDev - Sitio Web
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este es el repositorio del sitio web de **ProCodeDev**, diseñado para ofrecer soluciones digitales personalizadas para pequeños negocios. El proyecto está desarrollado con **Astro** y utiliza tecnologías modernas para garantizar un diseño responsivo y funcional.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Características
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Página de inicio**: Presentación profesional de los servicios.
+- **Servicios**: Sección detallada de los servicios ofrecidos.
+- **Portafolio**: Muestra de proyectos realizados.
+- **Testimonios**: Opiniones de clientes satisfechos.
+- **Formulario de contacto**: Permite a los usuarios ponerse en contacto fácilmente.
+- **Footer**: Redes sociales, información de contacto y suscripción al newsletter.
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📂 Estructura del Proyecto
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   ├── Img/               # Imágenes del proyecto
+│   └── favicon.svg        # Ícono del sitio
 ├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/        # Componentes reutilizables (header, footer, etc.)
+│   ├── layouts/           # Plantillas de diseño
+│   └── pages/             # Páginas principales del sitio
+└── package.json           # Dependencias y scripts del proyecto
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+## 🛠️ Tecnologías Utilizadas
 
-All commands are run from the root of the project, from a terminal:
+- **Astro**: Framework para construir sitios web rápidos y modernos.
+- **Tailwind CSS**: Framework de estilos para un diseño limpio y responsivo.
+- **Font Awesome**: Íconos para redes sociales y elementos visuales.
+- **Formspree**: Servicio para manejar formularios de contacto.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
+## 🧞 Comandos
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Ejecuta los siguientes comandos desde la raíz del proyecto:
+
+| Comando           | Acción                                          |
+| :---------------- | :---------------------------------------------- |
+| `npm install`     | Instala las dependencias del proyecto           |
+| `npm run dev`     | Inicia el servidor de desarrollo en `localhost` |
+| `npm run build`   | Genera el sitio para producción en `./dist/`    |
+| `npm run preview` | Previsualiza el sitio generado                  |
+
+---
+
+## 📬 Contacto
+
+Si tienes alguna pregunta o deseas más información, no dudes en ponerte en contacto:
+
+- **Email**: [info@procodedev.com](mailto:info@procodedev.com)
+- **Teléfono**: +52 618 230 2938
+- **Redes Sociales**:
+  - [Facebook](https://www.facebook.com/procodebycristian)
+  - [Instagram](https://www.instagram.com/cristian.pp/)
+  - [TikTok](https://www.tiktok.com/@procodedev)
+  - [LinkedIn](https://www.linkedin.com/in/cristian-posada-891401291/)
+  - [GitHub](https://github.com/usuario)
+  - [YouTube](https://youtube.com)
+
+---
+
+## 📝 Derechos Reservados
+
+&copy; 2025 ProCodeDev. Todos los derechos reservados.
